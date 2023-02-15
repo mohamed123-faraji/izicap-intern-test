@@ -1,5 +1,8 @@
 # izicap-intern-test
-How to run
+## **Bold Title**
+
+<small>Small text goes here.</small>
+#**How to run**
 You have to build the project manually with maven and then build the image with docker. Run the container and  you'll need to specify any required environment variables and port mappings.
 
 Architecture
