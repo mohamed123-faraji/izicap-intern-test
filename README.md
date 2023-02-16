@@ -2,6 +2,8 @@
 
 ## **How to run**
 You have to build the project manually with maven and then build the image with docker. Run the container and  you'll need to specify any required environment variables and port mappings.
+ docker build -t <image-name> .
+ docker run -p <host-port>:<container-port> <image-name>
 
 ## **Architecture**
 
