@@ -1,5 +1,4 @@
-
-FROM openjdk:10-jre-slim
+FROM openjdk:17-jdk-slim
 
 WORKDIR /app
 COPY ./target/izicap-intern-test.jar /app
